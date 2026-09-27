@@ -4,7 +4,7 @@ set -euo pipefail
 REPO_OWNER="DvMegaLTD"
 REPO_NAME="DIGIGATE-DASH"
 BRANCH="main"
-ZIP_NAME="M0ksp-DigiGate-ASL3-Share.zip"
+ZIP_NAME="M0KSP-DigiGate-ASL3-Share.zip"
 RAW_URL="https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${ZIP_NAME}"
 
 if [[ "${EUID}" -ne 0 ]]; then
